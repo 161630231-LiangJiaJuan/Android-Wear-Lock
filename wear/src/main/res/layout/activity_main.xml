@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context="com.example.hasee.myapplication.MainActivity"
+    tools:deviceIds="wear">
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:layout_marginTop="25px"/>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80px"
+        android:layout_marginLeft="20px">
+
+        <Button
+            android:id="@+id/one"
+            android:layout_marginLeft="20px"
+            android:layout_width="80px"
+            android:layout_height="wrap_content"
+            android:text="@string/one"
+            style="?android:attr/buttonStyle"/>
+
+        <Button
+            android:id="@+id/two"
+            style="?android:attr/buttonStyle"
+            android:layout_width="80px"
+            android:layout_height="wrap_content"
+            android:text="@string/two" />
+
+        <Button
+            android:id="@+id/three"
+            android:layout_width="80px"
+            android:layout_height="wrap_content"
+            android:text="@string/three"
+            style="?android:attr/buttonStyle"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140px"
+        android:layout_marginLeft="20px"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/four"
+            android:layout_marginLeft="20px"
+            android:layout_width="80px"
+            android:layout_height="wrap_content"
+            android:text="@string/four"
+            style="?android:attr/buttonStyle"/>
+
+        <Button
+            android:id="@+id/five"
+            android:layout_width="80px"
+            android:layout_height="wrap_content"
+            android:text="@string/five"
+            style="?android:attr/buttonStyle"/>
+
+        <Button
+            android:id="@+id/six"
+            android:layout_width="80px"
+            android:layout_height="wrap_content"
+            android:text="@string/six"
+            style="?android:attr/buttonStyle"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout3"
+    android:layout_marginTop="200px"
+    android:layout_marginLeft="20px">
+    <Button
+        android:layout_width="80px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:id="@+id/seven"
+        android:text="@string/seven"
+        style="?android:attr/buttonStyle"/>
+    <Button
+        android:layout_width="80px"
+        android:layout_height="wrap_content"
+        android:id="@+id/eight"
+        android:text="@string/eight"
+        style="?android:attr/buttonStyle"/>
+    <Button
+        android:layout_width="80px"
+        android:layout_height="wrap_content"
+        android:id="@+id/nine"
+        android:text="@string/nine"
+        style="?android:attr/buttonStyle"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout4"
+        android:layout_marginTop="260px"
+        android:layout_marginLeft="0px">
+        <Button
+            android:layout_width="80px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120px"
+            android:text="@string/zero"
+            android:id="@+id/zero"
+            style="?android:attr/buttonStyle" />
+        <Button
+            android:layout_width="80px"
+            android:layout_height="wrap_content"
+            android:id="@+id/backspace"
+            android:text="@string/backspace"
+            style="?android:attr/buttonStyle"/>
+    </LinearLayout>
+
+</android.support.wear.widget.BoxInsetLayout>
+
