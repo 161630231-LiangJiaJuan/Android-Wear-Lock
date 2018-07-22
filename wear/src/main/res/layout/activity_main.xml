@@ -116,7 +116,7 @@
         <Button
             android:layout_width="80px"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50px"
+            android:layout_marginLeft="40px"
             android:text="#"
             android:id="@+id/bntest"
             style="?android:attr/buttonStyle"
@@ -124,7 +124,7 @@
         <Button
             android:layout_width="80px"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="120px"
+            android:layout_marginLeft="0px"
             android:text="@string/zero"
             android:id="@+id/zero"
             style="?android:attr/buttonStyle" />
